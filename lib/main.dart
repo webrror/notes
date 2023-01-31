@@ -179,11 +179,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 Align(
                     alignment: Alignment.centerRight,
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                          backgroundColor: Theme.of(context).primaryColor,
-                          foregroundColor:
-                          Theme.of(context).primaryIconTheme.color,
+                    child: FilledButton.tonal(
+                      style: FilledButton.styleFrom(
+                          //backgroundColor: Theme.of(context).primaryColor,
+                          // foregroundColor:
+                          // Theme.of(context).primaryIconTheme.color,
                           minimumSize: const Size(100, 40),
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10))),
